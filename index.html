@@ -9,14 +9,14 @@
 </head>
 
 <body>
-    <header class="px-36 pb-24">
+    <header class="md:px-36 pb-24 sm:px-3">
         <!-- nav section -->
-        <nav class="flex justify-between items-center">
+        <nav class="flex justify-between items-center sm:flex-col md:flex-row">
             <div>
                 <img class="w-96" src="./icons/logo.png" alt="">
             </div>
             <div>
-                <ul class="flex ">
+                <ul class="flex sm:my-3 md:my-0">
                     <li class="px-5"><a href="">Home</a></li>
                     <li class="px-5"><a href="">Product</a></li>
                     <li class="px-5"><a href="">About us</a></li>
@@ -25,9 +25,9 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center sm:flex-col sm:text-center md:flex-row md:text-left">
             <div>
-                <h1 class="text-7xl text-[#363958]"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
+                <h1 class="text-7xl text-[#363958]"><span class="text-[#FABE4C] ">Be the Penguins</span> <br>
                     of Winter</h1>
                 <p class="text-lg my-5">Lorem Ipsum is simply dummy text of the printing <br>
                     and typesetting industry.</p>
@@ -41,9 +41,9 @@
     </header>
     <main class="px-36">
         <section>
-            <h1 class="text-5xl text-[#363958] mb-12">WOMAN JACKET</h1>
-            <div class="grid grid-cols-3 max-w-7xl mx-auto ">
-                <div class="w-96 p-3 bg-[#FFF]">
+            <h1 class="md:text-5xl md:text-left text-[#363958] mb-12 sm:text-2xl text-center">WOMAN JACKET</h1>
+            <div class="grid md:grid-cols-3 max-w-7xl mx-auto sm:grid-cols-1">
+                <div class="w-96 p-3 bg-[#FFF] shadow-md rounded-lg">
                     <img class="w-96 bg-[#F1F1F1] p-5 rounded-lg" src="./images/jacket-1.png" alt="">
                     <h1 class="text-[#363958] text-2xl">Yellow Coat Jacket </h1>
                     <p class="text-base py-3">Lorem Ipsum is simply dummy text of the
@@ -54,7 +54,7 @@
                             NOW</button>
                     </div>
                 </div>
-                <div class="w-96 p-3 bg-[#FFF]">
+                <div class="w-96 p-3 bg-[#FFF] shadow-md rounded-lg">
                     <img class="w-96 bg-[#F1F1F1] p-5 rounded-lg" src="./images/jacket-2.png" alt="">
                     <h1 class="text-[#363958] text-2xl">Ladies Jacket</h1>
                     <p class="text-base py-3">Lorem Ipsum is simply dummy text of the
@@ -65,7 +65,7 @@
                             NOW</button>
                     </div>
                 </div>
-                <div class="w-96 p-3 bg-[#FFF]">
+                <div class="w-96 p-3 bg-[#FFF] shadow-md rounded-lg">
                     <img class="w-96 bg-[#F1F1F1] p-5 rounded-lg" src="./images/jacket-3.png" alt="">
                     <h1 class="text-[#363958] text-2xl">Woman Leather Jacket </h1>
                     <p class="text-base py-3">Lorem Ipsum is simply dummy text of the
@@ -80,9 +80,9 @@
         </section>
 
         <section>
-            <h1 class="text-5xl text-[#363958] mb-12 mt-12">MAN JACKET</h1>
-            <div class="grid grid-cols-3 max-w-7xl mx-auto ">
-                <div class="w-96 p-3 bg-[#FFF]">
+            <h1 class="md:text-5xl md:text-left text-[#363958] mb-12 mt-12 sm:text-2xl text-center">MAN JACKET</h1>
+            <div class="grid md:grid-cols-3 max-w-7xl mx-auto sm:grid-cols-1">
+                <div class="w-96 p-3 bg-[#FFF] shadow-md rounded-lg">
                     <img class="w-96 bg-[#F1F1F1] p-5 rounded-lg" src="./images/jacket-4.png" alt="">
                     <h1 class="text-[#363958] text-2xl">Snowboard Jacket Mens</h1>
                     <p class="text-base py-3">Lorem Ipsum is simply dummy text of the
@@ -93,7 +93,7 @@
                             NOW</button>
                     </div>
                 </div>
-                <div class="w-96 p-3 bg-[#FFF]">
+                <div class="w-96 p-3 bg-[#FFF] shadow-md rounded-lg">
                     <img class="w-96 bg-[#F1F1F1] p-5 rounded-lg" src="./images/jacket-5.png" alt="">
                     <h1 class="text-[#363958] text-2xl">Man Leather Jackets</h1>
                     <p class="text-base py-3">Lorem Ipsum is simply dummy text of the
@@ -104,7 +104,7 @@
                             NOW</button>
                     </div>
                 </div>
-                <div class="w-96 p-3 bg-[#FFF]">
+                <div class="w-96 p-3 bg-[#FFF] shadow-md rounded-lg">
                     <img class="w-96 bg-[#F1F1F1] p-5 rounded-lg" src="./images/jacket-6.png" alt="">
                     <h1 class="text-[#363958] text-2xl">Man Casual Jackets</h1>
                     <p class="text-base py-3">Lorem Ipsum is simply dummy text of the
@@ -114,6 +114,40 @@
                         <button class="px-7 py-3 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded text-white">BUY
                             NOW</button>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex justify-between items-center my-14 sm:flex-col md:flex-row">
+                <div>
+                    <div class="flex w-96 justify-between py-7 rounded-xl my-5 bg-[#FFF] shadow-md">
+                        <img class="w-20" src="./icons/house.png" alt="">
+                        <div>
+                            <h1 class="text-2xl mb-1">Find the Perfect Fit</h1>
+                            <p class="text-base">Everybody is different, which is why we <br>
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="flex w-96 justify-between py-7 rounded-xl my-5 bg-[#FFF] shadow-md">
+                        <img class="w-20" src="./icons/house.png" alt="">
+                        <div>
+                            <h1 class="text-2xl mb-1">Find the Perfect Fit</h1>
+                            <p class="text-base">Everybody is different, which is why we <br>
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="flex w-96 justify-between py-7  rounded-xl my-5 bg-[#FFF] shadow-md">
+                        <img class="w-20" src="./icons/house.png" alt="">
+                        <div>
+                            <h1 class="text-2xl mb-1">Find the Perfect Fit</h1>
+                            <p class="text-base">Everybody is different, which is why we <br>
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="max-w-xl" src="./images/shopping.png" alt="">
                 </div>
             </div>
         </section>
